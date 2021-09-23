@@ -7,7 +7,7 @@ import (
 func main() {
 	// Please complete the code to make this program compiled without error.
 	// Notice that you can only add code in this file.
-
+	var action, a, b int
 	fmt.Println("1) Add")
 	fmt.Println("2) Sub")
 	fmt.Println("3) Mul")
@@ -30,5 +30,20 @@ func main() {
 	default:
 		fmt.Println("Wrong input!!")
 	}
+}
 
+func Add(a, b int) int {
+	return a + b
+}
+
+func Sub(a, b int) int {
+	return a - b
+}
+
+func Mul(a, b int) int {
+	return a * b
+}
+
+func Div(a, b int) int {
+	return a / b
 }
