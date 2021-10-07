@@ -5,8 +5,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strconv"
-	"strings"
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
@@ -31,13 +29,13 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	// 	}
 }
 
-func add(a, b int) int {
+// func add(a, b int) int {
 
-}
+// }
 
-func div(a, b int) int int {
+// func div(a, b int) int int {
 
-}
+// }
 
 func main() {
 	port := "12345"
